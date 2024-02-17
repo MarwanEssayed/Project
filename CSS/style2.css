@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      background-color: hsl(233, 47%, 7%);
+      padding: 0;
+      margin: 0;
+}
+.body{
+    display: flex;
+    margin: 150px;
+   background-color: hsl(244, 38%, 16%);
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px
+}
+
+
+.photo{
+    width: 50%;
+    background-color:hsl(277, 64%, 61%);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px
+}
+
+
+.text{
+    width: 50%;
+    display:block;
+    margin: 60px;
+}
+
+
+.text2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 200px;
+}
+
+h1{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    .insights{
+        color: blueviolet;
+    }
+}
+
+p{
+    color: white;
+    font-weight: 400;
+    font-size: small;
+}
+
+
+span{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: larger;
+}
